@@ -1,0 +1,16 @@
+.flex-container {
+  display: flex;
+  flex-flow: column no-wrap;
+}
+
+.image-section {
+  width: 33vw;
+}
+
+#background-image {
+  object-fit: cover;
+}
+
+.form-section {
+  background-color: white;
+}
