@@ -40,6 +40,13 @@
   color: white;
 }
 
+.credit {
+  position: absolute;
+  top: 70vh;
+  color: rgb(255, 255, 255);
+  text-shadow: grey;
+}
+
 .form-section {
   background-color: white;
   height: 100vh;
