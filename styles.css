@@ -87,12 +87,37 @@ label {
 
 .form-row {
   display: flex;
-  justify-content: space-around;
-  gap: 5px;
+  justify-content: flex-start;
+  gap: 100px;
   margin: 5px;
 }
 
 .input-field {
   display: flex;
   flex-flow: column;
+}
+
+input:invalid {
+  border-color: red;
+}
+
+input:focus {
+  border-color: blue;
+  border-width: 1px;
+  box-shadow: 4px 4px lightblue;
+}
+
+button {
+  background-color: #596D48;
+  color: white;
+  margin: 30px;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 15px;
+}
+
+.footer {
+  margin: 30px;
+  font-family: sans-serif;
 }
